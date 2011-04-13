@@ -1,0 +1,39 @@
+{
+    "name" : "bigfloat",
+    "version" : "0.0.1",
+    "description" : "Arbitrary-precision float arithmetic using libgmp",
+    "main" : "./index.js",
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/draggor/node-bigfloat.git"
+    },
+    "keywords": [
+        "gmp",
+        "libgmp",
+        "big",
+        "bignum",
+        "bigfloat",
+        "float",
+        "arithmetic",
+        "precision"
+    ],
+    "author" : {
+        "name" : "Draggor ZippyTanx",
+        "email" : "draggor@gmail.com",
+        "url" : "http://github.com/draggor/"
+    },
+    "devDependencies" : {
+        "expresso" : ">=0.6.0",
+        "binary" : ">=0.1.7"
+    },
+    "scripts" : {
+        "test" : "expresso"
+    },
+    "license" : "MIT/X11",
+    "engine" : {
+        "node" : ">=0.2.0"
+    },
+    "scripts" : {
+        "install" : "node-waf configure build"
+    }
+}
